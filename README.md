@@ -17,3 +17,10 @@
 * "\W" = Pesquisa por qualquer caracter que não seja uma letra do alfeto ou número tanto em caixa alta quanto em caixa baixa em uma string. 
 * "\d" = Pesquisa por números **(e somente números)** em uma string.
 * "\D" = Pesquisa por caracteres não números **(incluindo caracteres especiais)** em uma string.
+* "\s" = Pesquisa por espaços em branco.
+* "\S" = Pesquisa todos caracteres que não são espaços em branco.
+* "{n,n+1}" = "Pesquisa por um range".
+* "{n,}" = "Pesquisa por no **mínimo** uma repetição de n caracteres".
+* "{n}" = "Pesquisa por um número especifico de repetição".
+* "abc?def" = indica que o caracter anterior a ele é opcional.
+* "(abc|def)" = achar mais de um padrão.
